@@ -36,7 +36,7 @@ For full step-by-step instructions, see [Detailed Submission Guide](./docs/submi
 |[`iknl.nl`](https://www.iknl.nl)|Population-based, data-driven and scientific knowledge|[Info](./sources/iknl.nl.md)|
 |[`nkr-cijfers`](https://nkr-cijfers.iknl.nl)|Statistics and insights from the Netherlands Cancer Registry|[Info](./sources/nkr-cijfers.nl.md)|
 |[`cancer atlas`](https://kankeratlas.iknl.nl/)|Interactive map with regional incidence variation|[Info](./sources/kankeratlas.iknl.nl.md)|
-|`richtlijnendatabase.nl`|Oncology guidelines|[More info](./sources/richtlijnendatabase.nl.md)|
+|[`richtlijnendatabase`](https://richtlijnendatabase.nl/)|Oncology guideline database|[Info](./sources/richtlijnendatabase.nl.md)|
 |[`IKNL reports`](https://iknl.nl/onderzoek/publicaties)|Extensive analyses and big reports|[Info](./sources/publicaties.md)|
 |[`scientific publications`](https://iknl.nl/onderzoek/publicaties)|Scientific articles and insight by IKNL researchers|[Info](./sources/publicaties.md)|
 
