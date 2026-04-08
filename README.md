@@ -1,7 +1,7 @@
 <img src="https://github.com/IKNL/guidelines/blob/master/resources/logos/iknl_nl.png?raw=true" width=200 align="right">
 
-# BOM-AI-Hackathon<br>TRACK MED TECH
-In Brabant, the future isn’t something we wait for. We build it now. ​​​​​​​​​​​​​​​​​​​[​Join BrabantHack_26 on April 10th 2026 @HTC-Eindhoven](https://www.bomevents.nl/brabanthack26/home)
+# BOM-AI-Hackathon<br>TRACK: MED TECH
+In Brabant, the future isn’t something we wait for. We build it now. <br>​​​​​​​​​​​​​​​​​​​[​Join BrabantHack_26 on April 10th 2026 @HTC-Eindhoven](https://www.bomevents.nl/brabanthack26/home)
 
 >[!IMPORTANT]
 > A solution to inform people faster, better, and more reliably by connecting our distributed, trusted sources in a smarter, more accessible, and future proof way.
@@ -37,7 +37,7 @@ For full step-by-step instructions, see [Detailed Submission Guide](./docs/submi
 |[`nkr-cijfers`](https://nkr-cijfers.iknl.nl)|Statistics and insights from the Netherlands Cancer Registry|[Info](./sources/nkr-cijfers.nl.md)|
 |[`cancer atlas`](https://kankeratlas.iknl.nl/)|Interactive map with regional incidence variation|[Info](./sources/kankeratlas.iknl.nl.md)|
 |`richtlijnendatabase.nl`|Oncology guidelines|[More info](./sources/richtlijnendatabase.nl.md)|
-|IKNL reports|Extensive analyses and big reports|[More info](./sources/iknl-report.md)|
+|[`IKNL reports`](https://iknl.nl/onderzoek/publicaties)|Extensive analyses and big reports|[Info](./sources/publicaties.md)|
 |[`scientific publications`](https://iknl.nl/onderzoek/publicaties)|Scientific articles and insight by IKNL researchers|[Info](./sources/publicaties.md)|
 
 
