@@ -10,6 +10,7 @@ import {
   ChartTooltipContent,
   type ChartConfig,
 } from "@/components/ui/chart";
+import { RiThumbDownLine, RiThumbUpFill, RiThumbUpLine } from "@remixicon/react";
 
 /* ── Public types ── */
 
@@ -324,6 +325,23 @@ function Card({
               Loading…
             </span>
           )}
+          <div className="flex flex-row">
+            <Button
+            variant={"ghost"}
+            size={"icon-sm"}
+            className="hover:text-green-600 hover:cursor-pointer"
+            >
+              <RiThumbUpLine/>
+            </Button>
+            <Button
+            variant={"ghost"}
+            size={"icon-sm"}
+            className="hover:text-red-600 hover:cursor-pointer"
+            >
+              <RiThumbDownLine/>
+            </Button>
+
+          </div>
         </div>
       </div>
     </div>
