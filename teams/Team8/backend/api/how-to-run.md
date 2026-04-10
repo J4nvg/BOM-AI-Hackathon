@@ -1,6 +1,7 @@
 
+## Database
 
-## Using docker
+### Using docker
 Start container
 ```bash
 docker run --name bom_db -e MYSQL_ROOT_PASSWORD=password -p 3306:3306 -d mysql:latest
@@ -11,4 +12,17 @@ Setup schema
 docker exec -i bom_db mysql -uroot -ppassword < db.sql
 ```
 
+
+## REST API
+
+prep env
+```bash
+pip install fastapi uvicorn sqlalchemy pymysql cryptography
+```
+
+Run the server
+
+```bash
+uvicorn server:app --reload
+```
 
