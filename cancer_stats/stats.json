@@ -1,0 +1,518 @@
+[
+  {
+    "cancer_name": "Borstkanker",
+    "bron": "NKR (IKNL)",
+    "incidentie_chart": [
+      {
+        "year": "2014",
+        "incidentie": 14638
+      },
+      {
+        "year": "2015",
+        "incidentie": 14575
+      },
+      {
+        "year": "2016",
+        "incidentie": 14738
+      },
+      {
+        "year": "2017",
+        "incidentie": 15019
+      },
+      {
+        "year": "2018",
+        "incidentie": 14775
+      },
+      {
+        "year": "2019",
+        "incidentie": 15001
+      },
+      {
+        "year": "2020",
+        "incidentie": 13074
+      },
+      {
+        "year": "2021",
+        "incidentie": 15773
+      },
+      {
+        "year": "2022",
+        "incidentie": 15684
+      },
+      {
+        "year": "2023",
+        "incidentie": 15499
+      },
+      {
+        "year": "2024",
+        "incidentie": 15539
+      }
+    ],
+    "prevalentie_chart": [
+      {
+        "year": "2014",
+        "prevalentie": 0
+      },
+      {
+        "year": "2015",
+        "prevalentie": 0
+      },
+      {
+        "year": "2016",
+        "prevalentie": 0
+      },
+      {
+        "year": "2017",
+        "prevalentie": 0
+      },
+      {
+        "year": "2018",
+        "prevalentie": 0
+      },
+      {
+        "year": "2019",
+        "prevalentie": 0
+      },
+      {
+        "year": "2020",
+        "prevalentie": 0
+      },
+      {
+        "year": "2021",
+        "prevalentie": 0
+      },
+      {
+        "year": "2022",
+        "prevalentie": 0
+      },
+      {
+        "year": "2023",
+        "prevalentie": 0
+      },
+      {
+        "year": "2024",
+        "prevalentie": 0
+      }
+    ],
+    "sterfte_chart": [
+      {
+        "year": "2014",
+        "sterfte": 0
+      },
+      {
+        "year": "2015",
+        "sterfte": 0
+      },
+      {
+        "year": "2016",
+        "sterfte": 0
+      },
+      {
+        "year": "2017",
+        "sterfte": 0
+      },
+      {
+        "year": "2018",
+        "sterfte": 0
+      },
+      {
+        "year": "2019",
+        "sterfte": 0
+      },
+      {
+        "year": "2020",
+        "sterfte": 0
+      },
+      {
+        "year": "2021",
+        "sterfte": 0
+      },
+      {
+        "year": "2022",
+        "sterfte": 0
+      },
+      {
+        "year": "2023",
+        "sterfte": 0
+      },
+      {
+        "year": "2024",
+        "sterfte": 0
+      }
+    ],
+    "stadiumverdeling": {
+      "II": {
+        "percentage": 40.2,
+        "aantal": 6239
+      },
+      "NVT": {
+        "percentage": 0.1,
+        "aantal": 15
+      },
+      "I": {
+        "percentage": 43.6,
+        "aantal": 6771
+      },
+      "III": {
+        "percentage": 9.4,
+        "aantal": 1465
+      },
+      "IV": {
+        "percentage": 6.6,
+        "aantal": 1022
+      },
+      "Onbekend": {
+        "percentage": 0.2,
+        "aantal": 27
+      },
+      "0": {
+        "percentage": 0.0,
+        "aantal": 0
+      }
+    }
+  },
+  {
+    "cancer_name": "Prostaatkanker",
+    "bron": "NKR (IKNL)",
+    "incidentie_chart": [
+      {
+        "year": "2014",
+        "incidentie": 11136
+      },
+      {
+        "year": "2015",
+        "incidentie": 11733
+      },
+      {
+        "year": "2016",
+        "incidentie": 12496
+      },
+      {
+        "year": "2017",
+        "incidentie": 13042
+      },
+      {
+        "year": "2018",
+        "incidentie": 13708
+      },
+      {
+        "year": "2019",
+        "incidentie": 14696
+      },
+      {
+        "year": "2020",
+        "incidentie": 13574
+      },
+      {
+        "year": "2021",
+        "incidentie": 14762
+      },
+      {
+        "year": "2022",
+        "incidentie": 15942
+      },
+      {
+        "year": "2023",
+        "incidentie": 15676
+      },
+      {
+        "year": "2024",
+        "incidentie": 16532
+      }
+    ],
+    "prevalentie_chart": [
+      {
+        "year": "2014",
+        "prevalentie": 0
+      },
+      {
+        "year": "2015",
+        "prevalentie": 0
+      },
+      {
+        "year": "2016",
+        "prevalentie": 0
+      },
+      {
+        "year": "2017",
+        "prevalentie": 0
+      },
+      {
+        "year": "2018",
+        "prevalentie": 0
+      },
+      {
+        "year": "2019",
+        "prevalentie": 0
+      },
+      {
+        "year": "2020",
+        "prevalentie": 0
+      },
+      {
+        "year": "2021",
+        "prevalentie": 0
+      },
+      {
+        "year": "2022",
+        "prevalentie": 0
+      },
+      {
+        "year": "2023",
+        "prevalentie": 0
+      },
+      {
+        "year": "2024",
+        "prevalentie": 0
+      }
+    ],
+    "sterfte_chart": [
+      {
+        "year": "2014",
+        "sterfte": 0
+      },
+      {
+        "year": "2015",
+        "sterfte": 0
+      },
+      {
+        "year": "2016",
+        "sterfte": 0
+      },
+      {
+        "year": "2017",
+        "sterfte": 0
+      },
+      {
+        "year": "2018",
+        "sterfte": 0
+      },
+      {
+        "year": "2019",
+        "sterfte": 0
+      },
+      {
+        "year": "2020",
+        "sterfte": 0
+      },
+      {
+        "year": "2021",
+        "sterfte": 0
+      },
+      {
+        "year": "2022",
+        "sterfte": 0
+      },
+      {
+        "year": "2023",
+        "sterfte": 0
+      },
+      {
+        "year": "2024",
+        "sterfte": 0
+      }
+    ],
+    "stadiumverdeling": {
+      "II": {
+        "percentage": 7.6,
+        "aantal": 1251
+      },
+      "NVT": {
+        "percentage": 0.0,
+        "aantal": 4
+      },
+      "I": {
+        "percentage": 53.5,
+        "aantal": 8849
+      },
+      "III": {
+        "percentage": 11.2,
+        "aantal": 1849
+      },
+      "IV": {
+        "percentage": 26.9,
+        "aantal": 4448
+      },
+      "Onbekend": {
+        "percentage": 0.8,
+        "aantal": 131
+      },
+      "0": {
+        "percentage": 0.0,
+        "aantal": 0
+      }
+    }
+  },
+  {
+    "cancer_name": "Dikkedarmkanker",
+    "bron": "NKR (IKNL)",
+    "incidentie_chart": [
+      {
+        "year": "2014",
+        "incidentie": 24173
+      },
+      {
+        "year": "2015",
+        "incidentie": 25368
+      },
+      {
+        "year": "2016",
+        "incidentie": 25096
+      },
+      {
+        "year": "2017",
+        "incidentie": 24292
+      },
+      {
+        "year": "2018",
+        "incidentie": 24223
+      },
+      {
+        "year": "2019",
+        "incidentie": 23423
+      },
+      {
+        "year": "2020",
+        "incidentie": 21882
+      },
+      {
+        "year": "2021",
+        "incidentie": 24028
+      },
+      {
+        "year": "2022",
+        "incidentie": 22843
+      },
+      {
+        "year": "2023",
+        "incidentie": 22765
+      },
+      {
+        "year": "2024",
+        "incidentie": 23000
+      }
+    ],
+    "prevalentie_chart": [
+      {
+        "year": "2014",
+        "prevalentie": 0
+      },
+      {
+        "year": "2015",
+        "prevalentie": 0
+      },
+      {
+        "year": "2016",
+        "prevalentie": 0
+      },
+      {
+        "year": "2017",
+        "prevalentie": 0
+      },
+      {
+        "year": "2018",
+        "prevalentie": 0
+      },
+      {
+        "year": "2019",
+        "prevalentie": 0
+      },
+      {
+        "year": "2020",
+        "prevalentie": 0
+      },
+      {
+        "year": "2021",
+        "prevalentie": 0
+      },
+      {
+        "year": "2022",
+        "prevalentie": 0
+      },
+      {
+        "year": "2023",
+        "prevalentie": 0
+      },
+      {
+        "year": "2024",
+        "prevalentie": 0
+      }
+    ],
+    "sterfte_chart": [
+      {
+        "year": "2014",
+        "sterfte": 0
+      },
+      {
+        "year": "2015",
+        "sterfte": 0
+      },
+      {
+        "year": "2016",
+        "sterfte": 0
+      },
+      {
+        "year": "2017",
+        "sterfte": 0
+      },
+      {
+        "year": "2018",
+        "sterfte": 0
+      },
+      {
+        "year": "2019",
+        "sterfte": 0
+      },
+      {
+        "year": "2020",
+        "sterfte": 0
+      },
+      {
+        "year": "2021",
+        "sterfte": 0
+      },
+      {
+        "year": "2022",
+        "sterfte": 0
+      },
+      {
+        "year": "2023",
+        "sterfte": 0
+      },
+      {
+        "year": "2024",
+        "sterfte": 0
+      }
+    ],
+    "stadiumverdeling": {
+      "II": {
+        "percentage": 20.2,
+        "aantal": 4640
+      },
+      "NVT": {
+        "percentage": 0.6,
+        "aantal": 148
+      },
+      "I": {
+        "percentage": 19.3,
+        "aantal": 4445
+      },
+      "IV": {
+        "percentage": 31.6,
+        "aantal": 7279
+      },
+      "III": {
+        "percentage": 25.4,
+        "aantal": 5845
+      },
+      "Onbekend": {
+        "percentage": 2.8,
+        "aantal": 643
+      },
+      "0": {
+        "percentage": 0.0,
+        "aantal": 0
+      }
+    }
+  }
+]
