@@ -20,6 +20,10 @@ export interface SourceLink {
   url: string;
 }
 
+function capitalizeFirstLetter(val:string) {
+    return String(val).charAt(0).toUpperCase() + String(val).slice(1);
+}
+
 export interface ChartDataPoint {
   [key: string]: string | number;
 }
@@ -39,7 +43,8 @@ export interface TimelineBlock {
 export interface TimelineProps {
   blocks: TimelineBlock[];
   fetchNextEndpoint: string;
-  cancerType : string;
+  cancerType: string;
+  initialInfoType?: string;
 }
 
 /* ── Internals ── */
@@ -47,6 +52,7 @@ export interface TimelineProps {
 interface BlockState {
   data: TimelineBlock;
   showSource: boolean;
+  requestedType?: string;
 }
 
 function Connector({ visible }: { visible: boolean }) {
@@ -141,6 +147,7 @@ function Card({
   onNext,
   showSource,
   onToggleSource,
+  requestedType,
 }: {
   block: TimelineBlock;
   index: number;
@@ -149,6 +156,7 @@ function Card({
   onNext: (type: string) => void;
   showSource: boolean;
   onToggleSource: () => void;
+  requestedType?: string;
 }) {
   const ref = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(false);
@@ -187,12 +195,12 @@ function Card({
       <div className="relative w-full max-w-[540px] rounded-[14px] border px-7 pb-[22px] pt-7 shadow-[0_4px_28px_rgba(0,0,0,.22)]">
         {/* Year pill */}
         <div
-          className={`absolute -top-[15px] rounded-full px-3.5 py-[3px] font-mono text-[13px] font-extrabold tracking-[1.5px] text-white ${
+          className={`absolute -top-[15px] rounded-full px-3.5 py-[3px] text-[13px] font-extrabold tracking-[1.5px] text-white ${
             side === "left" ? "left-[22px]" : "right-[22px]"
           }`}
           style={{ backgroundColor: "#11b5e9" }}
         >
-          {block.sourceType ? block.sourceType : "Information"}
+          {requestedType?capitalizeFirstLetter(requestedType): block.sourceType ?? "Information"}
         </div>
 
         <h2 className="mt-2 mb-2.5 text-[21px] font-bold leading-tight">
@@ -284,7 +292,7 @@ function Card({
           )}
           {isLast && !loading && (
             <Button
-              onClick={() => onNext("advise")}
+              onClick={() => onNext("advice")}
               className="cursor-pointer rounded-[7px] border px-[18px] py-[9px] font-mono text-[13px] font-bold transition-all duration-200 hover:brightness-125"
               style={{
                 borderColor: "rgba(17,181,233,0.3)",
@@ -322,7 +330,7 @@ function Card({
   );
 }
 
-export default function Timeline({ blocks, fetchNextEndpoint,cancerType }: TimelineProps) {
+export default function Timeline({ blocks, fetchNextEndpoint, cancerType, initialInfoType }: TimelineProps) {
   const [items, setItems] = useState<BlockState[]>(
     blocks.map((b) => ({ data: b, showSource: false }))
   );
@@ -330,6 +338,7 @@ export default function Timeline({ blocks, fetchNextEndpoint,cancerType }: Timel
   const [scrollProgress, setScrollProgress] = useState(0);
   const containerRef = useRef<HTMLDivElement>(null);
   const endRef = useRef<HTMLDivElement>(null);
+  const initialFetchDone = useRef(false);
 
   const handleScroll = useCallback(() => {
     const el = containerRef.current;
@@ -354,7 +363,7 @@ const fetchNext = async (requestedInfoType: string) => {
       body: JSON.stringify({ cancerType, requestedInfoType }),
     });
     const next: TimelineBlock = await res.json();
-    setItems((prev) => [...prev, { data: next, showSource: false }]);
+    setItems((prev) => [...prev, { data: next, showSource: false, requestedType: requestedInfoType }]);
   } catch (err) {
     console.error("Timeline fetch error:", err);
   } finally {
@@ -365,6 +374,14 @@ const fetchNext = async (requestedInfoType: string) => {
     );
   }
 };
+
+  useEffect(() => {
+    if (initialInfoType && blocks.length === 0 && !initialFetchDone.current) {
+      initialFetchDone.current = true;
+      fetchNext(initialInfoType);
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const toggleSource = (idx: number) => {
     setItems((prev) =>
@@ -392,6 +409,7 @@ const fetchNext = async (requestedInfoType: string) => {
                 onNext={(type) => fetchNext(type)}
                 showSource={item.showSource}
                 onToggleSource={() => toggleSource(i)}
+                requestedType={item.requestedType}
               />
             </div>
           ))}

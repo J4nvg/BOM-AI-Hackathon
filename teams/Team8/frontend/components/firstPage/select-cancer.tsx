@@ -18,9 +18,9 @@ type SelectableItem = {
 }
 
 const cancers: SelectableItem[] = [
-  { itemName: "Breast Cancer", itemUrl: "breast-cancer" },
-  { itemName: "Prostate cancer", itemUrl: "prostate-cancer" },
-  { itemName: "Colorectal cancer", itemUrl: "colorectal-cancer" },
+  { itemName: "Breast Cancer", itemUrl: "breast_cancer" },
+  { itemName: "Prostate cancer", itemUrl: "prostate_cancer" },
+  { itemName: "Colorectal cancer", itemUrl: "colorectal_cancer" },
 ]
 
 export function SelectCancer() {
