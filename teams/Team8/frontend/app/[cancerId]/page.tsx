@@ -1,7 +1,8 @@
+'use client'
 import { SelectCancer } from "@/components/firstPage/select-cancer";
 import Timeline, { TimelineBlock } from "@/components/specificPage/timeline";
 import Image from "next/image";
-
+import { useParams } from 'next/navigation'
 
  
 const preloadedBlocks: TimelineBlock[] = [
@@ -18,9 +19,12 @@ const preloadedBlocks: TimelineBlock[] = [
 ];
 
 export default function Home() {
+  const params = useParams<{ cancerId: string}>()
+  let cancerId = params.cancerId 
   return (
     <main className="min-h-full">
       <Timeline
+      cancerType={cancerId}
         blocks={preloadedBlocks}
         fetchNextEndpoint="/api/timeline/nextblock"
       />

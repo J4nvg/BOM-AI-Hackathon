@@ -39,6 +39,7 @@ export interface TimelineBlock {
 export interface TimelineProps {
   blocks: TimelineBlock[];
   fetchNextEndpoint: string;
+  cancerType : string;
 }
 
 /* ── Internals ── */
@@ -52,7 +53,7 @@ function Connector({ visible }: { visible: boolean }) {
   return (
     <div
       className={`flex flex-col items-center transition-all duration-700 ease-[cubic-bezier(.4,0,.2,1)] overflow-hidden ${
-        visible ? "h-[90px] opacity-100" : "h-0 opacity-0"
+        visible ? "h-[90px]  opacity-100" : "h-0 opacity-0"
       }`}
     >
       <svg
@@ -145,7 +146,7 @@ function Card({
   index: number;
   isLast: boolean;
   loading: boolean;
-  onNext: () => void;
+  onNext: (type: string) => void;
   showSource: boolean;
   onToggleSource: () => void;
 }) {
@@ -255,7 +256,7 @@ function Card({
 
           {isLast && !loading && (
             <Button
-              onClick={onNext}
+              onClick={() => onNext("stats")}
               className="cursor-pointer rounded-[7px] border px-[18px] py-[9px] font-mono text-[13px] font-bold transition-all duration-200 hover:brightness-125"
               style={{
                 borderColor: "rgba(17,181,233,0.3)",
@@ -263,8 +264,51 @@ function Card({
                 color: "#11b5e9",
               }}
             >
-              Next →
+              Stats
             </Button>
+
+          )}
+          {isLast && !loading && (
+            <Button
+              onClick={() => onNext("facts")}
+              className="cursor-pointer rounded-[7px] border px-[18px] py-[9px] font-mono text-[13px] font-bold transition-all duration-200 hover:brightness-125"
+              style={{
+                borderColor: "rgba(17,181,233,0.3)",
+                backgroundColor: "rgba(17,181,233,0.1)",
+                color: "#11b5e9",
+              }}
+            >
+              Facts
+            </Button>
+
+          )}
+          {isLast && !loading && (
+            <Button
+              onClick={() => onNext("advise")}
+              className="cursor-pointer rounded-[7px] border px-[18px] py-[9px] font-mono text-[13px] font-bold transition-all duration-200 hover:brightness-125"
+              style={{
+                borderColor: "rgba(17,181,233,0.3)",
+                backgroundColor: "rgba(17,181,233,0.1)",
+                color: "#11b5e9",
+              }}
+            >
+              Advise
+            </Button>
+
+          )}
+          {isLast && !loading && (
+            <Button
+              onClick={() => onNext("expertise")}
+              className="cursor-pointer rounded-[7px] border px-[18px] py-[9px] font-mono text-[13px] font-bold transition-all duration-200 hover:brightness-125"
+              style={{
+                borderColor: "rgba(17,181,233,0.3)",
+                backgroundColor: "rgba(17,181,233,0.1)",
+                color: "#11b5e9",
+              }}
+            >
+              Expertise
+            </Button>
+
           )}
 
           {isLast && loading && (
@@ -278,7 +322,7 @@ function Card({
   );
 }
 
-export default function Timeline({ blocks, fetchNextEndpoint }: TimelineProps) {
+export default function Timeline({ blocks, fetchNextEndpoint,cancerType }: TimelineProps) {
   const [items, setItems] = useState<BlockState[]>(
     blocks.map((b) => ({ data: b, showSource: false }))
   );
@@ -301,30 +345,26 @@ export default function Timeline({ blocks, fetchNextEndpoint }: TimelineProps) {
     return () => el.removeEventListener("scroll", handleScroll);
   }, [handleScroll]);
 
-  const fetchNext = async () => {
-    const last = items[items.length - 1].data;
-    setLoading(true);
-    try {
-      const res = await fetch(fetchNextEndpoint, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          currentYear: last.year,
-          currentTitle: last.title,
-        }),
-      });
-      const next: TimelineBlock = await res.json();
-      setItems((prev) => [...prev, { data: next, showSource: false }]);
-    } catch (err) {
-      console.error("Timeline fetch error:", err);
-    } finally {
-      setLoading(false);
-      setTimeout(
-        () => endRef.current?.scrollIntoView({ behavior: "smooth", block: "center" }),
-        80
-      );
-    }
-  };
+const fetchNext = async (requestedInfoType: string) => {
+  setLoading(true);
+  try {
+    const res = await fetch(fetchNextEndpoint, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ cancerType, requestedInfoType }),
+    });
+    const next: TimelineBlock = await res.json();
+    setItems((prev) => [...prev, { data: next, showSource: false }]);
+  } catch (err) {
+    console.error("Timeline fetch error:", err);
+  } finally {
+    setLoading(false);
+    setTimeout(
+      () => endRef.current?.scrollIntoView({ behavior: "smooth", block: "center" }),
+      80
+    );
+  }
+};
 
   const toggleSource = (idx: number) => {
     setItems((prev) =>
@@ -349,7 +389,7 @@ export default function Timeline({ blocks, fetchNextEndpoint }: TimelineProps) {
                 index={i}
                 isLast={i === items.length - 1}
                 loading={loading && i === items.length - 1}
-                onNext={fetchNext}
+                onNext={(type) => fetchNext(type)}
                 showSource={item.showSource}
                 onToggleSource={() => toggleSource(i)}
               />
