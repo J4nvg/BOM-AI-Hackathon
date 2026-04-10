@@ -1,0 +1,221 @@
+{
+    "cancer_types": {
+        "breast_cancer": {
+            "stats": [
+                {
+                    "title": "Survival rate",
+                    "text": "Breast cancer is the **most frequently diagnosed cancer among women** in the Netherlands, with an estimated **'15,200' new diagnoses of invasive breast cancer expected in 2025**. Although the sources do not provide a year-by-year percentage table for the last 50 years, the **Netherlands Cancer Registry (NKR)** tracks **'relative survival'** (relatieve overleving) for the disease through interactive charts that cover the period from **'1989 to 2025'**.\nKey historical and statistical insights from the sources include:\n* **Dedicated Reporting:** The report **'Borstkanker in Nederland (2022)'** provides detailed data on **'incidence, staging, and treatment'** trends.\n* **Socioeconomic Factors:** A 2024 three-part report titled **'Kanker in Nederland: sociaaleconomische verschillen'** examines how factors like income lead to **'differences in survival, disease course, consequences, and (after)care'**.\n* **Historical Analysis:** The 2014 report **'Kankerzorg in beeld'** analyzed **'diagnostics, treatment, and survival'** for 21 tumor types, including breast cancer.\n* **General Survival Trends:** While specific percentages for breast cancer are not excerpted, the sources note that for various other cancers—such as colorectal, liver, and bile duct cancers—**'prognosis and survival rates have improved'** over time. For ovarian cancer, it is specifically noted that there has been a **'gradually longer survival in the first years after diagnosis'**.",
+                    "img_url": [],
+                    "sources": [
+                        {
+                            "title": "IKNL",
+                            "url": "https://iknl.nl/impact-is_borstkanker - NKR Cijfers | Incidentie - Grafiek"
+                        }
+                    ],
+                    "sourceType": "graph",
+                    "chartData": [
+                        { "year": "2014", "incidentie": 14638 },
+                        { "year": "2015", "incidentie": 14575 },
+                        { "year": "2016", "incidentie": 14738 },
+                        { "year": "2017", "incidentie": 15019 },
+                        { "year": "2018", "incidentie": 14775 },
+                        { "year": "2019", "incidentie": 15001 },
+                        { "year": "2020", "incidentie": 13074 },
+                        { "year": "2021", "incidentie": 15773 },
+                        { "year": "2022", "incidentie": 15684 },
+                        { "year": "2023", "incidentie": 15499 },
+                        { "year": "2024", "incidentie": 15539 }
+                    ],
+                    "chartXKey": "year",
+                    "chartDataKey": "incidentie",
+                    "chartLabel": "Incidentie"
+                }
+            ],
+            "facts": [
+                {
+                    "title": "Modern treatments",
+                    "text": "* **Advanced Therapies:** The primary modern modalities listed are **'Targeted therapy'** (doelgerichte therapie), **'Immunotherapy'** (immunotherapie), and **'Proton therapy'** (protonentherapie). These exist alongside traditional methods like **'surgery'**, **'radiation'**, and **'chemotherapy'**.\n* **Current Guidelines:** The sources point to the **'Richtlijnendatabase'** of the Federation of Medical Specialists (FMS) as the central location for the most **'actuele medische en verpleegkundige oncologische richtlijnen'** (current medical and nursing oncological guidelines) for breast cancer. \n* **Specialized Reporting:** For specific trends in care, the report **'Borstkanker in Nederland (2022)'** details historical and modern trends in **'treatment'** and **'staging'**.\n* **Expensive Medicines:** There is a specific focus on the use and impact of **'expensive medicines'** (dure geneesmiddelen). A 2024 platform and various reports analyze whether the outcomes of these high-cost drugs, which include modern targeted treatments, justify their use in terms of **'survival and side effects'**.\n* **Supportive Tools:** Modern care also utilizes digital tools like **'Oncoguide'** and data from the **'Netherlands Cancer Registry (NKR)'** to provide insights that contribute to **'better care'** and improved **'quality of life'**.\nAdditionally, because approximately **'1 in 5'** cancer patients are diagnosed with metastatic disease, modern treatment often involves **'proactive care planning'** and integrated **'palliative care'** to manage the disease in its advanced stages.",
+                    "img_url": [],
+                    "sources": [
+                        {
+                            "title": "IKNL",
+                            "url": "https://iknl.nl/nkr"
+                        }
+                    ]
+                }
+            ],
+            "advice": [
+                {
+                    "title": "Advice for patients",
+                    "text": "For a breast cancer patient, navigating the diagnosis involves finding reliable information, seeking support, and active self-monitoring. You can access **'trustworthy information'** about breast cancer, its treatments, and its consequences through the library on 'kanker.nl'. To better understand the complex information provided by doctors, you may find the **'medical dictionary'** helpful for explaining common terms.\nIn terms of support and well-being, the following resources are available:\n* **Peer Support and Communication:** You can connect with **'lotgenoten'** (peers) to share experiences, read blogs, or join conversations with others in similar situations. Additionally, **'conversation cards'** are available to help guide discussions with your loved ones about the disease.\n* **Professional Help:** For a listening ear, you can contact the **'infolijn'** via telephone, email, or chat. You may also visit **'IPSO centers'** for support outside of a hospital setting or consult a **'patient organization'**.\n* **Monitoring Your Burden:** You are encouraged to use the **'Lastmeter'** (distress thermometer) to track your physical, emotional, social, and practical concerns. Sharing these results with your healthcare provider can help them understand your **'quality of life'** and address specific issues like **'fatigue'** or **'anxiety'**.\n* **Physical Activity and Rehabilitation:** Staying active is beneficial; for example, the **'Onco-move'** program is specifically designed to help patients exercise during chemotherapy. There are also specific guidelines and summary cards for **'recovery after cancer'** and **'oncological rehabilitation'** to help you regain your strength.\n* **Guideline-Based Care:** Patients can stay informed about the most **'current medical and nursing guidelines'** for breast cancer and breast reconstruction by referring to the **'Richtlijnendatabase'**.\nIf the cancer is at an advanced stage, you may want to look into **'proactive care planning'** to discuss your wishes and goals for the future with your care team. For specialized assistance, the **'Verwijsgids kanker'** (cancer referral guide) can help you find specific support near you.",
+                    "img_url": [],
+                    "sources": [
+                        {
+                            "title": "Richtlijn",
+                            "url": "Richtlijn medisch specialistische revalidatie bij oncologie"
+                        }
+                    ]
+                }
+            ],
+            "expertise": [
+                {
+                    "title": "Surgeons in the Netherlands",
+                    "text": "The provided sources **do not list specific breast cancer surgeons** or provide a directory of individual doctors to suggest. Instead, the sources point to professional tools and platforms where you can find specialized care:\n* **Finding Specialists:** You can use the **'Verwijsgids kanker'** (cancer referral guide) to find specialized help and care providers in your area. \n* **Asking a Professional:** The platform 'kanker.nl' offers a **'Vraag het een professional'** (Ask a professional) service and an **'infolijn'** (info line) that can guide you toward the right medical experts.\n* **Breast Cancer Expertise:** While not a surgeon, **'Prof. dr. Sabine Siesling'** is noted in the sources as a **'head researcher at IKNL and a professor at the University of Twente'** specializing specifically in **'breast cancer'**.\n* **Patient Support:** You are also encouraged to contact **'patient organizations'** or visit **'IPSO centers'**, which provide support and can often help navigate the healthcare system to find the right surgical team.\n* **Treatment Guidelines:** For information on current surgical standards, the **'Richtlijnendatabase'** contains the official medical guidelines for **'Borstkanker'** (breast cancer) and **'Borstreconstructie'** (breast reconstruction) used by specialists in the Netherlands.",
+                    "img_url": [],
+                    "sources": [
+                        {
+                            "title": "IKNL",
+                            "url": "iknl.nl"
+                        }
+                    ]
+                }
+            ]
+        },
+        "prostate_cancer": {
+            "stats": [
+                {
+                    "title": "Data",
+                    "text": "Based on the sources, the estimated number of diagnoses for **'prostate cancer'** in the Netherlands for the year **'2025'** is **'16,100'**. \nKey statistical insights regarding prostate cancer include:\n* **Most Common Cancer in Men:** Prostate cancer is ranked as the **'most frequent'** of the 10 most common cancer types among men in the Netherlands for 2025, surpassing other types such as skin and lung cancer.\n* **Data Registry:** The **'Netherlands Cancer Registry (NKR)'** has tracked data on prostate cancer for over three decades, with comprehensive overviews such as the report **'Prostaatkanker in Nederland (2021)'**, which covers the period from **'1989 to 2021'**.\n* **Long-term Trends:** Interactive charts for cancer incidence generally cover a **'37-year period'** from **'1989 to 2025'**, though data for **'2024 and 2025'** is currently considered **'provisional'**.\n* **Available Guidelines:** For those seeking information on medical standards, the **'Richtlijnendatabase'** contains the official medical guideline for **'Prostaatcarcinoom'**.",
+                    "img_url": [],
+                    "sources": [
+                        {
+                            "title": "IKNL",
+                            "url": "De 10 meest voorkomende kankersoorten bij mannen"
+                        }
+                    ],
+                    "sourceType": "graph",
+                    "chartData": [
+                        { "year": "2014", "incidentie": 11136 },
+                        { "year": "2015", "incidentie": 11733 },
+                        { "year": "2016", "incidentie": 12496 },
+                        { "year": "2017", "incidentie": 13042 },
+                        { "year": "2018", "incidentie": 13708 },
+                        { "year": "2019", "incidentie": 14696 },
+                        { "year": "2020", "incidentie": 13574 },
+                        { "year": "2021", "incidentie": 14762 },
+                        { "year": "2022", "incidentie": 15942 },
+                        { "year": "2023", "incidentie": 15676 },
+                        { "year": "2024", "incidentie": 16532 }
+                    ],
+                    "chartXKey": "year",
+                    "chartDataKey": "incidentie",
+                    "chartLabel": "Incidentie"
+                }
+            ],
+            "facts": [
+                {
+                    "title": "Vaccines",
+                    "text": "The provided sources do not explicitly state whether a vaccine for prostate cancer exists. They do, however, list **'Immunotherapie'** (immunotherapy) as a recognized category of treatment for cancer. For the most current and official information on medical treatments, the sources direct users to the **'Richtlijnendatabase'**, which contains the official medical guideline for **'Prostaatcarcinoom'** (prostate cancer). Detailed information on treatment trends and insights can also be found in the report **'Prostaatkanker in Nederland (2021)'**. To find reliable information on specific therapies or to seek expert advice, you can access the **'bibliotheek'** (library) on **'kanker.nl'** or utilize the **'Vraag het een professional'** (Ask a professional) service.",
+                    "img_url": [],
+                    "sources": [
+                        {
+                            "title": "Kanker NL",
+                            "url": "kanker.nl"
+                        }
+                    ]
+                }
+            ],
+            "advice": [
+                {
+                    "title": "Relatives and loved ones",
+                    "text": "Relatives of prostate cancer patients can access specialized guidance and support through several resources identified in the sources. On 'kanker.nl', there is a dedicated section for those close to a patient titled **'Iemand in mijn omgeving heeft kanker'** (Someone in my environment has cancer). To help facilitate difficult discussions, relatives can utilize **'gesprekskaartjes'** (conversation cards), which provide guidance on what to say to a patient or another loved one. For those in need of personal support or a **'luisterend oor'** (listening ear), the **'infolijn'** is available via telephone, e-mail, or chat for anyone who has a person in their environment affected by cancer. \nFurthermore, the sources highlight the following for family members and caregivers:\n* **Peer Support:** Relatives can find connection by reading the **'ervaringen van anderen'** (experiences of others) through blogs or by using the **'lotgenotenzoeker'** (peer seeker) to find people in similar situations.\n* **Medical Understanding:** To better understand the information shared by doctors, relatives can use the **'woordenboek'** (dictionary) for explanations of general medical terms related to cancer.\n* **Hereditary Concerns:** If there is a potential genetic link, there is a specific guideline available on **'informeren van familieleden bij erfelijke aandoeningen'** (informing family members about hereditary conditions).\n* **Specific Disease Context:** For insights into the disease and its treatment trends in the Netherlands, the report **'Prostaatkanker in Nederland (2021)'** is a key resource.\n* **Younger Patients:** If the patient is a young adult (aged **'16 to 39'**), specialized support for their **'naasten'** (loved ones) is provided through the 'kanker.nl/jong' platform.",
+                    "img_url": [],
+                    "sources": [
+                        {
+                            "title": "IKNL",
+                            "url": "https://iknl.nl/kanker-in-nederland-ses-rapport-1"
+                        }
+                    ]
+                }
+            ],
+            "expertise": [
+                {
+                    "title": "Support Groups",
+                    "text": "Yes, there are several ways for prostate cancer patients to find support groups and connect with others in similar situations. According to the sources, the platform 'kanker.nl' provides a **'Lotgenotenzoeker'** (peer seeker) specifically designed to help patients find 'lotgenoten' (peers) for support. \nPatients can access support through the following channels:\n* **Online Community and Peer Contact:** Patients can engage in **'in gesprek met elkaar'** (conversations with each other) on digital forums, read or write **'blogs'**, and share their **'ervaringen'** (experiences).\n* **Patient Organizations:** There are dedicated **'Patiëntenorganisaties'** (patient organizations) that provide specialized support and advocacy for those with specific types of cancer, including prostate cancer.\n* **Walk-in Centers:** For support outside of a clinical setting, patients can visit **'IPSO centra'**, which are walk-in centers offering a place to meet others and receive guidance.\n* **Young Adult Support:** If the patient is between the ages of **'16 and 39'**, they can access **'kanker.nl/jong'**, which offers tailored information and **'lotgenotencontact'** for younger people.\n* **Professional Guidance:** While not a support group itself, the **'infolijn'** (info line) is available via phone, email, or chat to provide a **'luisterend oor'** (listening ear) and help point patients toward the right support resources.\nThe sources also mention that 'kanker.nl' provides **'gratis materialen'** (free materials) to help inform and support patients throughout their journey.",
+                    "img_url": [],
+                    "sources": [
+                        {
+                            "title": "Kanker NL",
+                            "url": "kanker.nl"
+                        }
+                    ]
+                }
+            ]
+        },
+        "colorectal_cancer": {
+            "stats": [
+                {
+                    "title": "How common is colorectal cancer?",
+                    "text": "Colorectal cancer (colon and rectal cancer) is one of the most common types of cancer in the Netherlands, with an estimated **'11,300' new diagnoses expected in 2025**. This total is comprised of **'5,300' cases among women** and **'6,000' cases among men**.\nKey statistics and trends regarding its prevalence include:\n* **Ranking:** In the 2025 estimates, colorectal cancer ranks as the **'fourth' most common cancer among women** (following breast, skin, and lung cancer) and the **'fifth' most common among men** (following prostate, skin, lung, and hematological cancers).\n* **Definition:** In the Netherlands Cancer Registry (NKR) data, **'darm'** (bowel) cancer refers specifically to both **'dikke- en endeldarmkanker'** (colon and rectal cancer).\n* **Recent Trends:** According to a 2024 trend report, the number of diagnoses has shown a **'dalende trend'** (downward trend) in recent years. This is attributed in part to the fact that the disease is increasingly **'vaker in een vroeg stadium opgespoord'** (detected earlier), which has also led to a **'verbeterde prognose'** (improved prognosis) and the use of less invasive treatments.\n* **Historical Data:** Comprehensive data on incidence, staging, and survival for colorectal cancer has been tracked by the **'Netherlands Cancer Registry (NKR)'** for over 35 years, with records dating back to **'1989'**.\n* **Hereditary Factors:** Specialized guidelines exist for specific forms of the disease, such as **'Erfelijke darmkanker'** (hereditary bowel cancer), which includes **'Lynch syndroom, polyposis, and familiair darmkanker'**.\n* **Medical Standards:** Treatment and diagnostic standards are maintained in the **'Richtlijnendatabase'** under the category **'Colorectaal carcinoom (CRC)'**.\nFor those affected, 'kanker.nl' provides access to **'betrouwbare informatie'** (reliable information) and a **'Lotgenotenzoeker'** to connect with others who have had similar experiences with bowel cancer.",
+                    "img_url": [],
+                    "sources": [
+                        {
+                            "title": "Kanker NL",
+                            "url": "kanker.nl"
+                        },
+                        {
+                            "title": "IKNL",
+                            "url": "iknl.nl"
+                        }
+                    ],
+                    "sourceType": "graph",
+                    "chartData": [
+                        { "year": "2014", "incidentie": 24173 },
+                        { "year": "2015", "incidentie": 25368 },
+                        { "year": "2016", "incidentie": 25096 },
+                        { "year": "2017", "incidentie": 24292 },
+                        { "year": "2018", "incidentie": 24223 },
+                        { "year": "2019", "incidentie": 23423 },
+                        { "year": "2020", "incidentie": 21882 },
+                        { "year": "2021", "incidentie": 24028 },
+                        { "year": "2022", "incidentie": 22843 },
+                        { "year": "2023", "incidentie": 22765 },
+                        { "year": "2024", "incidentie": 23000 }
+                    ],
+                    "chartXKey": "year",
+                    "chartDataKey": "incidentie",
+                    "chartLabel": "Incidentie"
+                }
+            ],
+            "facts": [
+                {
+                    "title": "New treatments for colorectal cancer",
+                    "text": "Current advancements in the treatment of colorectal cancer focus on more precise and less invasive options. While the sources do not name specific new drugs, they highlight several modern treatment categories and trends in the Netherlands:\n* **Advanced Treatment Categories:** Beyond traditional surgery, radiation, and chemotherapy, the sources list **'Doelgerichte therapie'** (targeted therapy), **'Immunotherapie'** (immunotherapy), and **'Protonentherapie'** (proton therapy) as key modern treatment options.\n* **Shift Toward Less Invasive Care:** According to the **'Darmkanker Trendrapport (2024)'**, there is an increasing trend toward **'minder ingrijpende behandeling'** (less invasive treatment). This shift is possible because colorectal cancer is increasingly being **'opgespoord in een vroeg stadium'** (detected in an early stage), leading to an **'verbeterde prognose'** (improved prognosis).\n* **Evaluation of New Medicines:** A dedicated **'platform dure geneesmiddelen'** (2024) has been established to analyze whether the use of **'expensive medicines'**, which often include the latest targeted and immunotherapies, effectively leads to **'life extension'** or if the **'side effects'** and costs outweigh the benefits. \n* **Official Guidelines:** For the most current clinical standards, the sources point to the **'Richtlijnendatabase'**, which maintains the official medical and nursing guidelines for **'Colorectaal carcinoom (CRC)'**.\n* **Supportive Procedures:** Procedures like **'Poliepectomie van het rectum en colon'** are also utilized for removing polyps before they become more advanced.\n",
+                    "img_url": [],
+                    "sources": [
+                        {
+                            "title": "IKNL",
+                            "url": "iknl.nl"
+                        }
+                    ]
+                }
+            ],
+            "advice": [
+                {
+                    "title": "How to support someone who has colorectal cancer?",
+                    "text": "Supporting someone with colorectal cancer involves providing emotional support, helping them navigate medical information, and utilizing available resources for both the patient and yourself.\nThe following advice is based on the provided sources:\n### **Communication and Emotional Support**\n* **Finding the Right Words:** You can use **'gesprekskaartjes'** (conversation cards) specifically developed to help relatives and friends find the right things to say during a conversation with a patient.\n* **Dedicated Information:** The platform 'kanker.nl' has a specialized section titled **'Iemand in mijn omgeving heeft kanker'** (Someone in my environment has cancer) which offers tailored advice for those supporting a loved one.\n* **Seek Your Own Support:** Supporting a patient can be heavy. You can contact the **'infolijn'** via telephone, email, or chat for a **'listening ear'** and personal support.\n### **Practical Help and Monitoring**\n* **Monitoring Well-being:** Encourage the patient to use the **'Lastmeter'** (distress thermometer). This tool helps them indicate how much burden they are experiencing on a **'physical, emotional, social, and practical'** level, which can then be discussed with their healthcare team.\n* **Proactive Planning:** Discussion about the future is important. Engaging in **'proactieve zorgplanning'** (proactive care planning) can help the patient document their wishes regarding **'quality of life'** and future care.\n### **Connecting and Information**\n* **Peer Support:** Both you and the patient can use the **'lotgenotenzoeker'** (peer seeker) to connect with others who have been through similar experiences. Reading **'blogs'** from other patients and relatives can also provide comfort and insight.\n* **Understanding the Diagnosis:** To better understand the information from doctors, you can use the **'woordenboek'** (dictionary) for explanations of medical terms.\n* **Positive Trends:** It may be helpful to know that, according to the **'Darmkanker Trendrapport (2024)'**, colorectal cancer is increasingly detected in an **'early stage'**, which has led to an **'improved prognosis'** and the use of **'less invasive treatments'**.\n### **Specialized Organizations**\n* **Find Local Help:** You can use the **'Verwijsgids kanker'** (cancer referral guide) to find specialized care and support near you.\n* **Patient Organizations:** Connecting with a **'patiëntenorganisatie'** (patient organization) or visiting **'IPSO centra'** (walk-in centers) can provide a supportive community and expert guidance outside of a hospital setting.\nIf the patient is a young adult (aged **'16 to 39'**), specialized information for their **'naasten'** (loved ones) is available through the **'kanker.nl/jong'** platform.",
+                    "img_url": [],
+                    "sources": [
+                        {
+                            "title": "Kanker NL",
+                            "url": "kanker.nl"
+                        }
+                    ]
+                }
+            ],
+            "expertise": [
+                {
+                    "title": "Patient organizations for colorectal cancer",
+                    "text": "Yes, there are **'Patiëntenorganisaties'** (patient organizations) available for those dealing with **'Darmkanker'** (colorectal cancer). While the sources do not name a specific organization exclusively for colorectal cancer, they identify **'kanker.nl'** as the primary platform for locating these groups and finding your way through the world of cancer.\nIn addition to dedicated patient organizations, the following support resources are available:\n* **Peer Support:** You can use the **'Lotgenotenzoeker'** (peer seeker) on 'kanker.nl' to find others with similar experiences, read their **'blogs'**, and participate in **'in gesprek met elkaar'** (conversations with each other).\n* **Physical Support Centers:** You can visit **'IPSO centra'**, which are walk-in centers that offer support and a community for patients and their loved ones outside of the hospital environment.\n* **Guidance and Advice:** The **'Infolijn'** provides a **'luisterend oor'** (listening ear) via telephone, email, or chat and can help direct you to the most appropriate patient organization for your needs.\n* **Specialized Support for Young Adults:** For those aged **'16 to 39'**, the **'kanker.nl/jong'** platform offers tailored information, peer contact, and help for both patients and their **'naasten'** (loved ones).\n* **Finding Specialized Care:** The **'Verwijsgids kanker'** (cancer referral guide) can be used to find localized support and professional care providers specifically for colorectal cancer.\nFor healthcare professionals, the **'Richtlijnendatabase'** provides the official medical and nursing guidelines for **'Colorectaal carcinoom (CRC)'**, which these organizations often use to ensure patients receive standard care.",
+                    "img_url": [],
+                    "sources": [
+                        {
+                            "title": "Richtlijn",
+                            "url": "https://richtlijnendatabase.nl/richtlijn/cardiovasculair_risicomanagement_cvrm/samenvatting_richtlijn_cardiovasculair_risicomanagement.html"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
