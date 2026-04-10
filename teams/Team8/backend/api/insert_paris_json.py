@@ -63,4 +63,4 @@ def insert_cancer_data(json_filepath: str):
 
 # Run the function using your specific filename
 if __name__ == "__main__":
-    insert_cancer_data('draft_info.json')
+    insert_cancer_data('info.json')
